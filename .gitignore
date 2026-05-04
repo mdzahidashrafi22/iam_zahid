@@ -18,9 +18,6 @@ package-lock.json
 .env
 .env.*
 
-# Project docs (research/analysis — not part of website)
-docs/
-
 # Build output
 dist/
 build/
