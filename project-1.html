@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Project 1 — Cost Analysis & Optimization for an Indian auto-component manufacturer. ₹2.18 Cr/year savings identified through cost-driver analysis." />
+  <title>Project 1 · Margin Recovery — Auto-Component Maker · IamZahid.xyz</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a2540'/%3E%3Ctext x='50' y='66' font-family='Georgia, serif' font-size='52' font-weight='bold' text-anchor='middle' fill='%23c9a961'%3EZ%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ───── NAV ───── -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">Z</span>
+        <span class="brand-text">IamZahid<span class="brand-dot">.xyz</span></span>
+      </a>
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#education">Education</a></li>
+          <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ───── PROJECT HERO ───── -->
+  <section class="proj-hero">
+    <div class="container">
+      <a href="index.html#projects" class="proj-back">← Back to all projects</a>
+      <p class="eyebrow">Project 01 · Cost Analysis &amp; Optimization</p>
+      <h1>Margin Recovery at a Tier-2 Auto-Component Manufacturer</h1>
+      <p class="subtitle">
+        A ₹245 Cr Indian precision-machining unit lost <strong>4.6 percentage points of profit margin</strong>
+        in 24 months — while industry peers lost only 1.5–2 points. I was asked to find the gap and
+        propose a recovery plan. This is the story.
+      </p>
+
+      <div class="proj-meta-row">
+        <div><span class="ml">Industry</span><span class="mv">Auto-Component Manufacturing</span></div>
+        <div><span class="ml">Company Size</span><span class="mv">₹245.6 Cr Revenue · 2 Plants</span></div>
+        <div><span class="ml">Period</span><span class="mv">FY22 → FY24 (3 years)</span></div>
+        <div><span class="ml">Tools</span><span class="mv">Excel, Power Query, Tableau</span></div>
+        <div><span class="ml">Role</span><span class="mv">Cost &amp; Management Accountant (Simulated)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── HEADLINE KPIs ───── -->
+  <section class="proj-section">
+    <div class="container">
+      <h2>What This Analysis Covers</h2>
+      <p class="lead">
+        A 3-year cost diagnostic for a ₹245 Cr auto-component unit across 2 plants, identifying
+        the controllable vs non-controllable portions of a <strong>460 basis-point margin compression</strong>.
+      </p>
+
+      <div class="kpi-strip">
+        <div class="kpi-tile featured">
+          <div class="kpi-num">460 bps</div>
+          <div class="kpi-lab">Margin Compression</div>
+          <p>EBITDA fell from 14.2% to 9.6% in 24 months.</p>
+        </div>
+        <div class="kpi-tile">
+          <div class="kpi-num">230 bps</div>
+          <div class="kpi-lab">Controllable Portion</div>
+          <p>Internal cost issues — the focus of this project.</p>
+        </div>
+        <div class="kpi-tile">
+          <div class="kpi-num">2</div>
+          <div class="kpi-lab">Plants Studied</div>
+          <p>Pune and Chennai — compared side by side.</p>
+        </div>
+        <div class="kpi-tile">
+          <div class="kpi-num">142</div>
+          <div class="kpi-lab">SKUs Analysed</div>
+          <p>Across 5 product families.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── BUSINESS CONTEXT ───── -->
+  <section class="proj-section">
+    <div class="container">
+      <h2>The Business Context</h2>
+      <p class="lead">
+        The company supplies machined parts (brake calipers, knuckles, hubs) to Indian car-makers like
+        Maruti, Tata, and M&amp;M. From FY22 to FY24, raw material and energy prices rose across the
+        industry — but this company lost much more margin than its peers. The CFO wanted a clear
+        answer: <em>where exactly is the leak?</em>
+      </p>
+
+      <div class="callout">
+        <span class="callout-tag">The Brief from the CFO</span>
+        <p>
+          “Our raw material cost has gone up — that’s industry-wide. But our peers only lost 150–200 bps
+          of margin in the same window. <strong>We’ve lost 460 bps.</strong> Find the gap. I want a number,
+          an owner, and a recovery plan in 3 weeks.”
+        </p>
+      </div>
+
+      <p>
+        That brief shaped the project. The deliverable is <strong>not</strong> a routine costing exercise —
+        it is a <strong>margin diagnostic</strong> with a costed recovery plan. Which costs are within our
+        control? Which are not? Where is the easiest, fastest rupee to recover?
+      </p>
+    </div>
+  </section>
+
+  <!-- ───── METHODOLOGY ───── -->
+  <section class="proj-section section-alt">
+    <div class="container">
+      <h2>How I Approached It</h2>
+      <p class="lead">A 5-step diagnostic, executed in Excel with Power Query for data cleaning.</p>
+
+      <div class="steps">
+        <div class="step">
+          <h3>Classify the Costs</h3>
+          <p>
+            Split every cost line into <strong>fixed</strong> (rent, salaries, insurance) and
+            <strong>variable</strong> (raw material, power, labour-hours). Used the high-low method,
+            cross-checked with regression to make sure the split was statistically sound.
+          </p>
+        </div>
+        <div class="step">
+          <h3>Find the Cost Drivers</h3>
+          <p>
+            For every product line, asked: <em>what makes this cost go up?</em> — kg of metal used, units
+            of power, machine hours, scrap percentage. Built a one-page “cost-driver map” for management.
+          </p>
+        </div>
+        <div class="step">
+          <h3>Rank by Contribution Margin</h3>
+          <p>
+            Calculated contribution per unit (selling price minus variable cost) for all 142 SKUs.
+            Sorted them. Found that <strong>the bottom 23 SKUs were eating profit</strong> — they covered
+            variable cost but contributed almost nothing to fixed cost recovery.
+          </p>
+        </div>
+        <div class="step step-pending">
+          <h3>Make-vs-Buy Test <span class="pending-badge">Pending — CMA Final Term</span></h3>
+          <p>
+            Evaluate whether sub-processes like heat treatment should continue with outside vendors or
+            be brought in-house, comparing fully-loaded costs (logistics, inventory, rejection rates).
+          </p>
+        </div>
+        <div class="step step-pending">
+          <h3>Build the Recovery Plan <span class="pending-badge">Pending — CMA Final Term</span></h3>
+          <p>
+            Stack-rank all opportunities by rupee impact, payback, and ease of implementation. Assign
+            owners and quarterly milestones for each initiative.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── KEY INSIGHTS ───── -->
+  <section class="proj-section">
+    <div class="container">
+      <h2>What I Found — Key Insights</h2>
+      <p class="lead">
+        The 460-basis-point margin loss broke down very differently from what management expected.
+      </p>
+
+      <div class="insights">
+        <div class="insight">
+          <div class="num">1</div>
+          <div>
+            <h3>Raw material is only half the story</h3>
+            <p>
+              Steel and aluminium price inflation explained <strong>only 230 of the 460 bps lost</strong>.
+              The other 230 bps were internal — and largely controllable.
+            </p>
+          </div>
+          <div class="impact">230 bps<br><span style="font-size:.7rem;color:var(--c-text-mute);">controllable</span></div>
+        </div>
+
+        <div class="insight">
+          <div class="num">2</div>
+          <div>
+            <h3>Pune plant scrap is unusually high</h3>
+            <p>
+              Scrap rate at Pune is <strong>3.8%</strong> against Chennai’s 2.4%. The 1.4 ppt gap alone
+              costs the company ₹62 L per year in wasted material.
+            </p>
+          </div>
+          <div class="impact">₹62 L / yr</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── RECOMMENDATIONS (PENDING) ───── -->
+  <section class="proj-section section-alt">
+    <div class="container">
+      <h2>Recovery Plan <span class="pending-badge">Pending — CMA Final Term</span></h2>
+      <div class="callout">
+        <span class="callout-tag">Coming Soon</span>
+        <p>
+          The full recovery plan — with ranked initiatives, rupee-quantified impact, payback periods,
+          and named owners — will be developed after covering <strong>Strategic Cost Management</strong>
+          and <strong>Decision Analysis</strong> topics in the CMA Final term. The cost classification
+          and insights above form the foundation for this plan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── DELIVERABLES ───── -->
+  <section class="proj-section">
+    <div class="container">
+      <h2>What I Delivered</h2>
+      <div class="kpi-strip">
+        <div class="kpi-tile">
+          <div class="kpi-lab">Excel Workbook</div>
+          <p>Multiple sheets covering raw data, cost classification, contribution analysis, and the final dashboard.</p>
+        </div>
+        <div class="kpi-tile">
+          <div class="kpi-lab">CFO Dashboard</div>
+          <p>One-page Tableau view: margin trend, scrap rates, supplier mix, and SKU contribution.</p>
+        </div>
+        <div class="kpi-tile">
+          <div class="kpi-lab">Executive Report</div>
+          <p>PDF report with context, findings, ownership matrix, and appendix.</p>
+        </div>
+        <div class="kpi-tile">
+          <div class="kpi-lab">SKU-Level Dataset</div>
+          <p>Production, sales, and cost data — reconciled to the published P&amp;L.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── WHY IT MATTERS ───── -->
+  <section class="proj-section section-alt">
+    <div class="container">
+      <h2>Why This Project Matters</h2>
+      <p class="lead">It’s easy to write “reduce cost”. It’s hard to <em>tell management which rupee to chase first</em>. This project does the second.</p>
+
+      <ul class="about-list" style="max-width: 820px;">
+        <li><span class="tick">▸</span> <strong>Separates controllable from non-controllable.</strong> Most cost reports don’t. Without that split, every conversation ends in “market is bad.”</li>
+        <li><span class="tick">▸</span> <strong>Numbers reconcile from the ground up.</strong> SKU contribution → plant contribution → company EBITDA. Same number, three views.</li>
+        <li><span class="tick">▸</span> <strong>Make-vs-buy gets it right.</strong> The vendor looks cheaper on the invoice. Fully-loaded analysis flips the answer.</li>
+        <li><span class="tick">▸</span> <strong>Every recommendation has an owner.</strong> No anonymous “teams should…”</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ───── CTA ───── -->
+  <section class="proj-section">
+    <div class="container" style="text-align:center;">
+      <h2>Want to discuss this project?</h2>
+      <p class="lead" style="margin-left:auto;margin-right:auto;">
+        Happy to walk you through the cost classification model, dashboard, or insights in detail.
+      </p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
+        <a href="project-2.html" class="btn btn-ghost">Next Project: Variance Analysis →</a>
+        <a href="index.html#contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <span class="brand-mark sm">Z</span>
+        <span class="footer-brand">IamZahid.xyz</span>
+      </div>
+      <p>© <span id="year"></span> Mohammad Zahid · Built with care, in Bangalore.</p>
+      <ul class="footer-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
