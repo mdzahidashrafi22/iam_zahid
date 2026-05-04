@@ -1,1 +1,26 @@
+# IDE
 .idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if added later)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# Project docs (research/analysis — not part of website)
+docs/
+
+# Build output
+dist/
+build/
